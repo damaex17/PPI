@@ -23,7 +23,6 @@ else
 	w, h, di = ARGV[0].to_i, ARGV[1].to_i, ARGV[2].to_f
 	dp = Math.sqrt((w**2) + (h**2))
 	ppi = (dp/di)
+	compare
+	puts "your entry:\t#{w}x#{h} #{di} \" ->\t#{ppi} ppi"
 end
-
-compare
-puts "your entry:\t#{w}x#{h} #{di} \" ->\t#{ppi} ppi"
