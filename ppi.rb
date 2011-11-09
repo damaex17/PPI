@@ -17,10 +17,6 @@ def compare()
 end
 
 
-#puts ARGV.length
-#puts ARGV[0]
-#puts $0
-
 if ARGV.length < 3
 	usage
 else
